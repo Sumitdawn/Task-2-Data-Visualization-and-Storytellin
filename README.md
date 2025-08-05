@@ -1,46 +1,103 @@
-<p align="center">
-  <img src="https://github.com/Sumitdawn/Task-2-Data-Visualization-and-Storytellin/assets/your-banner-image-path" alt="Data Analyst Banner" width="100%">
-</p>
+# 📊 Task 2 - Data Visualization and Storytelling
 
-<h1 align="center">📊 Task 2: Data Visualization and Storytelling</h1>
+Welcome to the **Data Visualization and Storytelling** project!  
+This repository showcases how raw data can be transformed into meaningful visual insights using Python and libraries like Matplotlib and Seaborn.
 
-<p align="center">
-  <b>A clean and insightful data analysis project focused on understanding employee trends using Python.</b><br>
-  <i>Cleaning • Exploratory Analysis • Visualization • Storytelling</i>
-</p>
+> 🔍 **Goal:** To analyze and visualize a dataset in a compelling and insightful manner through effective data storytelling techniques.
 
 ---
 
-## 📁 Project Description
+## 🧠 What You'll Learn
 
-This project demonstrates end-to-end data cleaning, analysis, and storytelling using Python. The dataset represents employee-related data with various attributes. The goal is to clean raw data and extract meaningful insights using visual tools and data storytelling techniques.
-
----
-
-## 🎯 Objectives
-
-- Clean and preprocess raw employee data
-- Handle missing or improperly formatted values
-- Create compelling visualizations to convey key insights
-- Tell a data-driven story around employee metrics
+- Exploratory Data Analysis (EDA)
+- Data Cleaning & Preprocessing
+- Visualizing Trends, Distributions, and Correlations
+- Using Python Libraries: `pandas`, `matplotlib`, `seaborn`
+- Storytelling through Data Visuals
 
 ---
 
-## 🚀 Features
+## 📁 Project Structure
 
-- ✅ Cleaned and validated employee dataset
-- ✅ Missing value imputation and formatting
-- ✅ Visualizations using **Matplotlib**, **Seaborn**, and **Plotly**
-- ✅ Data storytelling techniques to make data more insightful
+│
+├── Data/
+│ └── Student_Performance.csv # Dataset used for analysis
+│
+├── Visualizations/
+│ ├── correlation_matrix.png
+│ ├── gender_vs_math.png
+│ └── ...
+│
+├── Task 2 - Data Visualization.ipynb # Jupyter notebook with complete analysis
+│
+└── README.md
 
 ---
 
-## 📂 Folder Structure
+## 📌 Dataset Used
 
+**📂 Student Performance Dataset**  
+The dataset contains student performance in different subjects along with demographic details such as:
+
+- Gender
+- Parental education level
+- Test preparation course
+- Scores in Math, Reading, and Writing
+
+This dataset helps uncover patterns and influences in student academic outcomes.
+
+---
+
+## 📊 Visualizations Included
+
+- **Distribution of Math, Reading, and Writing Scores**
+- **Gender vs. Performance**
+- **Impact of Parental Education Level**
+- **Correlation Heatmap**
+- **Boxplots & Countplots**
+- **Effect of Test Preparation on Scores**
+
+Each graph is explained with a short narrative to aid in storytelling and derive actionable insights.
+
+---
+
+## 🛠️ Technologies Used
+
+| Tool/Library     | Purpose                         |
+|------------------|----------------------------------|
+| Python 🐍        | Programming Language             |
+| Pandas 📄        | Data manipulation & cleaning     |
+| Matplotlib 📈    | Plotting library                 |
+| Seaborn 🌊       | Statistical data visualization   |
+| Jupyter 📓       | Interactive Python environment   |
+
+---
+
+## 📸 Sample Visualizations
+
+> *(Make sure these images exist in your `Visualizations/` folder or update the path accordingly)*
+
+### 🎯 Gender-wise Math Score Distribution
+<img src="Visualizations/gender_vs_math.png" width="450"/>
+
+### 🔗 Correlation Between Subjects
+<img src="Visualizations/correlation_matrix.png" width="450"/>
+
+---
+
+## 🧩 Insights Discovered
+
+- **Gender** shows a performance gap in some subjects.
+- **Test preparation courses** positively influence student performance.
+- **Parental education level** plays a significant role in academic results.
+- Strong **correlation** found between Reading and Writing scores.
+
+---
+
+## 🚀 Getting Started
+
+To explore or reproduce this project on your local machine:
+
+1. **Clone the Repository**  
 ```bash
-.
-├── employee_raw_dataset.csv       # Original raw dataset
-├── employee_cleaned.csv          # Cleaned version after preprocessing
-├── clean_dataset.py              # Python script for data cleaning
-├── insights_visualized.ipynb     # Jupyter notebook for visual storytelling
-└── README.md                     # Project documentation
+git clone https://github.com/Sumitdawn/Task-2-Data-Visualization-and-Storytellin.git
