@@ -17,23 +17,6 @@ This repository showcases how raw data can be transformed into meaningful visual
 
 ---
 
-## 📁 Project Structure
-
-│
-├── Data/
-│ └── Student_Performance.csv # Dataset used for analysis
-│
-├── Visualizations/
-│ ├── correlation_matrix.png
-│ ├── gender_vs_math.png
-│ └── ...
-│
-├── Task 2 - Data Visualization.ipynb # Jupyter notebook with complete analysis
-│
-└── README.md
-
----
-
 ## 📌 Dataset Used
 
 **📂 Student Performance Dataset**  
@@ -73,17 +56,6 @@ Each graph is explained with a short narrative to aid in storytelling and derive
 
 ---
 
-## 📸 Sample Visualizations
-
-> *(Make sure these images exist in your `Visualizations/` folder or update the path accordingly)*
-
-### 🎯 Gender-wise Math Score Distribution
-<img src="Visualizations/gender_vs_math.png" width="450"/>
-
-### 🔗 Correlation Between Subjects
-<img src="Visualizations/correlation_matrix.png" width="450"/>
-
----
 
 ## 🧩 Insights Discovered
 
