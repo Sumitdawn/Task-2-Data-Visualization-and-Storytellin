@@ -40,15 +40,6 @@ The dataset used for this project is the **Superstore Sales Dataset** — a popu
 > <img width="2070" height="1172" alt="Dashboard" src="https://github.com/user-attachments/assets/87ab94c9-cc47-48ba-afb2-5f883064388e" />
 
 
-### 🧾 Sales Overview Dashboard
-<img src="Dashboard Screenshots/overview.png" width="600"/>
-
-### 🌍 Sales by Region
-<img src="Dashboard Screenshots/sales-by-region.png" width="600"/>
-
-### 📦 Category-wise Profit Analysis
-<img src="Dashboard Screenshots/category-profit.png" width="600"/>
-
 ---
 
 ## 🧩 Storytelling Highlights
